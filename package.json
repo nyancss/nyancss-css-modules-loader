@@ -1,6 +1,6 @@
 {
   "name": "decss-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Webpack loader that turns CSS into importable components",
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,10 @@
   "author": "Sasha Koss <koss@nocorp.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kossnocorp/decss-loader/issues"
+    "url": "https://github.com/kossnocorp/decss/issues"
   },
-  "homepage": "https://github.com/kossnocorp/decss-loader#readme",
+  "homepage": "https://github.com/kossnocorp/decss#readme",
   "dependencies": {
-    "decss": "^0.5.0"
+    "decss": "< 1"
   }
 }
