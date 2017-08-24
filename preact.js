@@ -1,7 +1,9 @@
-module.exports = function (source) {
+module.exports = function(source) {
   return `
 ${source}
 var decss = require('decss/preact')
-exports.locals = decss(exports.locals || {})
+var classNames = exports.locals || {}
+exports.locals = decss(classNames)
+exports.locals.classNames = classNames
 `
 }

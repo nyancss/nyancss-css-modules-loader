@@ -7,6 +7,12 @@ This change log follows the format documented in [Keep a CHANGELOG].
 [Semantic Versioning]: http://semver.org/
 [Keep a CHANGELOG]: http://keepachangelog.com/
 
+## 0.2.0 - 2017-08-24
+
+### Added
+
+- Add `classNames` property with the class names map to the exports.
+
 ## 0.1.1 - 2017-08-01
 
 ### Fixed
