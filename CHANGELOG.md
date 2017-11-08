@@ -7,6 +7,12 @@ This change log follows the format documented in [Keep a CHANGELOG].
 [Semantic Versioning]: http://semver.org/
 [Keep a CHANGELOG]: http://keepachangelog.com/
 
+## 0.3.0 - 2017-11-08
+
+### Added
+
+- Add support for [ExtractTextPlugin](https://github.com/webpack-contrib/extract-text-webpack-plugin).
+
 ## 0.2.0 - 2017-08-24
 
 ### Added

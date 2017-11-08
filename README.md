@@ -3,7 +3,7 @@
 This is **decss-loader** source code.
 
 - See docs at [decss](https://github.com/kossnocorp/decss#readme) 👈
-- See [Change Log](./CHNAGELOG.md) 📈
+- See [Change Log](./CHANGELOG.md) 📈
 - [Report issues at decss repo](https://github.com/kossnocorp/decss/issues/new) 🐛
 
 ## License
