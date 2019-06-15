@@ -1,0 +1,20 @@
+.Header,
+.Header-size-medium {
+  font-size: 2rem;
+}
+
+.Header-size-small {
+  font-size: 1.5rem;
+}
+
+.Header-size-large {
+  font-size: 3rem;
+}
+
+.Text {
+  size: 1rem;
+}
+
+.Text-italic {
+  font-style: italic;
+}

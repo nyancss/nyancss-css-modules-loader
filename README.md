@@ -1,9 +1,9 @@
-# decss-loader
+# @nyancss/css-modules-loader
 
-This is **decss-loader** source code.
+This is **@nyancss/css-modules-loader** source code.
 
 - See docs at [decss](https://github.com/kossnocorp/decss#readme) 👈
-- See [Change Log](./CHANGELOG.md) 📈
+- See [Changelog](./CHANGELOG.md) 📈
 - [Report issues at decss repo](https://github.com/kossnocorp/decss/issues/new) 🐛
 
 ## License

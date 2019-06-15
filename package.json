@@ -1,15 +1,10 @@
 {
-  "name": "decss-loader",
-  "version": "0.3.0",
+  "name": "@nyancss/css-modules-loader",
+  "version": "1.0.0",
   "description": "Webpack loader that turns CSS into importable components",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kossnocorp/decss-loader.git"
-  },
+  "repository": "https://github.com/nyancss/nyancss-css-modules-loader",
+  "author": "Sasha Koss <koss@nocorp.me>",
+  "license": "MIT",
   "keywords": [
     "css",
     "webpack",
@@ -20,13 +15,24 @@
     "react",
     "preact"
   ],
-  "author": "Sasha Koss <koss@nocorp.me>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kossnocorp/decss/issues"
-  },
-  "homepage": "https://github.com/kossnocorp/decss#readme",
   "dependencies": {
-    "decss": "< 1"
+    "@nyancss/css-modules": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@nyancss/react": "^1.0.0",
+    "css-loader": "^3.0.0",
+    "cypress": "^3.3.1",
+    "html-webpack-plugin": "^3.2.0",
+    "preact": "^10.0.0-beta.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "wait-on": "^3.2.0",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
   }
 }
