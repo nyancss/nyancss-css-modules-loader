@@ -1,7 +1,7 @@
 {
   "name": "@nyancss/css-modules-loader",
   "version": "1.0.0",
-  "description": "Webpack loader that turns CSS into importable components",
+  "description": "Nyan CSS webpack loader that converts CSS Modules into React/Preact components",
   "repository": "https://github.com/nyancss/nyancss-css-modules-loader",
   "author": "Sasha Koss <koss@nocorp.me>",
   "license": "MIT",
@@ -9,20 +9,20 @@
     "css",
     "webpack",
     "loader",
-    "decss",
+    "nyancss",
     "css-modules",
     "webpack-loader",
     "react",
     "preact"
   ],
   "dependencies": {
-    "@nyancss/css-modules": "^1.0.0"
+    "@nyancss/css-modules": "^1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-typescript": "^7.3.3",
-    "@nyancss/react": "^1.0.0",
+    "@nyancss/react": "^1.1.0",
     "css-loader": "^3.0.0",
     "cypress": "^3.3.1",
     "html-webpack-plugin": "^3.2.0",
@@ -30,6 +30,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "style-loader": "^0.23.1",
+    "typescript": "^3.5.2",
     "wait-on": "^3.2.0",
     "webpack": "^4.34.0",
     "webpack-cli": "^3.3.4",
