@@ -7,7 +7,7 @@ This change log follows the format documented in [Keep a CHANGELOG].
 [semantic versioning]: http://semver.org/
 [keep a changelog]: http://keepachangelog.com/
 
-## 1.1.0 - 2019-06-16
+## 1.0.0 - 2019-06-17
 
 ### Changed
 
