@@ -1,16 +1,12 @@
-import {
-  Header,
-  Text
-} from '!!style-loader!../../lib/react!css-loader?modules=true!./style.css'
-import React from 'react'
-import ReactDOM from 'react-dom'
+import { Fragment, h, render } from 'preact'
+import { Header, Text } from './style.css'
 
-ReactDOM.render(
-  React.createElement(
-    React.Fragment,
+render(
+  h(
+    Fragment,
     null,
-    React.createElement(Header, { tag: 'h1', size: 'large' }, 'Hello, world!'),
-    React.createElement(
+    h(Header, { tag: 'h1', size: 'large' }, 'Hello, world!'),
+    h(
       Text,
       { tag: 'p', italic: true },
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'

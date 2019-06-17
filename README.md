@@ -26,44 +26,23 @@ yarn add --dev @nyancss/css-modules-loader @nyancss/react
     'style-loader',
     '@nyancss/css-modules-loader/react', // 👈 Add the loader
     // Use '@nyancss/css-modules-loader/preact' for Preact
-    {
-      loader: 'css-loader',
-      options: {
-        modules: true, // 👈 You must enable modules to make it work
-        importLoaders: 1,
-        localIdentName: '[local]-[hash:base64:5]',
-      }
-    },
-    'postcss-loader'
+    { loader: 'css-loader', options: { modules: true } }
   ]
 },
 // ...
 ```
 
-### Usage with [ExtractTextPlugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)
+### Usage with [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
 
 ```js
 // ...
 {
   test: /\.css$/,
-  // 👇 Put the loader in the front
-  // Use '@nyancss/css-modules-loader/preact' for Preact
-  use: ['@nyancss/css-modules-loader/react'].concat(
-    ExtractTextPlugin.extract({
-      fallback: 'style-loader',
-      use: [
-        {
-          loader: 'css-loader',
-          options: {
-            modules: true,
-            importLoaders: 1,
-            localIdentName: '[local]-[hash:base64:5]'
-          }
-        },
-        'postcss-loader'
-      ]
-    })
-  )
+  use: [
+    '@nyancss/css-modules-loader/react', // 👈 The loader **before** the plugin
+    { loader: MiniCssExtractPlugin.loader }, // 👈 mini-css-extract-plugin
+    { loader: 'css-loader', options: { modules: true } }
+  ]
 },
 // ...
 ```
