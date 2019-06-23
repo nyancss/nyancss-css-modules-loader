@@ -659,20 +659,29 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@nyancss/css-modules@^1.1.0":
+"@nyancss/class-names@^1.1":
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@nyancss/css-modules/-/css-modules-1.1.0.tgz#ec7b61f44322d70a1af925ce074574cc00e82deb"
-  integrity sha512-XfxfnyDUlJflOAJpt9eZ89nv99JrBib0N9PnY5IfxXx9L9FdidPirAiGeKP+iVusXwzR2k+0p8eto631B8ZioA==
+  resolved "https://registry.yarnpkg.com/@nyancss/class-names/-/class-names-1.1.0.tgz#a2f7b2df34df2f65d63a9f710f293e10ca28cdcc"
+  integrity sha512-PZE3e5bNbjOTrCxoCjZDWnmeWY7DHMW8Z6JZcGg/g7qpDPI2AWlL8OD/KDh194Wg9LvI8TrwX+/G+JHuMlLFhQ==
   dependencies:
     "@nyancss/types" "^1"
-    "@nyancss/utils" "^1.1.0"
+    "@nyancss/utils" "^1.2"
 
-"@nyancss/react@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@nyancss/react/-/react-1.1.0.tgz#d7fa26b16493087c5438ef98a76f208775df03d1"
-  integrity sha512-9/EGG2eyXEGAKMqNWG7YyOiJfC5cSkSDbe0ETq8raw6Sb7wRXGmz9X3J4bB56RPTq1jMBP3x8F54tQznl6hxaQ==
+"@nyancss/css-modules@^1.2":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@nyancss/css-modules/-/css-modules-1.2.0.tgz#2be32c37a1213028446ec2ab32faaa9dd909be6f"
+  integrity sha512-2tT/mxRtl0Y8u8EtJLk8pLNJktoZcKewc8DFMc48Om9pw5lKDOeG9N9IUzIhO1jJkaKmJ+/SOoKHAwf8Ho4q+Q==
   dependencies:
     "@nyancss/types" "^1"
+    "@nyancss/utils" "^1.2"
+
+"@nyancss/react@^1.3":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@nyancss/react/-/react-1.3.0.tgz#983dbd40c297b6e84876ae91ab6eb4e83ee0c4e6"
+  integrity sha512-yzuuTnn+WU5qOTzlFlZFQ1YyAMLwMsRxFoEr3GMi2vlz3J958sJQSjPBQTpSOUmxOfhFNacWIhXFm5UYXRe2Kw==
+  dependencies:
+    "@nyancss/types" "^1"
+    "@nyancss/utils" "^1.2"
 
 "@nyancss/types@^1":
   version "1.0.0"
@@ -684,12 +693,20 @@
   resolved "https://registry.yarnpkg.com/@nyancss/types/-/types-1.1.0.tgz#1b6030a6ee7143a0ba2e556bff72d9da7bb13ef6"
   integrity sha512-iiC7HUmil5T3pLcRDP+9Iza0WbN9ZXD9t5UGvwscf8PC97JJyXQe1tS5fea3DskEB8mxUUh/J8A14LMyvX71kw==
 
-"@nyancss/utils@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@nyancss/utils/-/utils-1.1.0.tgz#a047561e9a4e59189dc4120bf270958def76230e"
-  integrity sha512-lhsFBefChRg5nQ7GJvEidrvCgC5TaRT1sAXTdqDMOMwYtlAYJX37/KaAUy671dtMWHn4tc8ZIuFv42egI/ZxWQ==
+"@nyancss/utils@^1.2":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@nyancss/utils/-/utils-1.2.0.tgz#c753bf08cde34fb08bc963b46b0625f19ffe93a0"
+  integrity sha512-9QWCpjZGo5GupaS+6C6VfYscaZo2PGsr8SWs+/B7ryrA6ztSAYE3EOVvTQIdxYC23ccZzsfIlM2tqcchUMOq+A==
   dependencies:
     "@nyancss/types" "^1.1.0"
+
+"@nyancss/vue@^1":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@nyancss/vue/-/vue-1.0.0.tgz#2d2cf7338e3cebd1e6e66a6a693fac91bfb36be3"
+  integrity sha512-sN7ckzpgg0ByO2HLorxiyPLvLyqwqE2UjmkIW8ac5kfkW4ryFoVYSx0+bTtGdh4rUux3EYX8m50LD+f7600FJQ==
+  dependencies:
+    "@nyancss/types" "^1"
+    "@nyancss/utils" "^1.2"
 
 "@types/events@*":
   version "3.0.0"
@@ -5787,6 +5804,11 @@ vm-browserify@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha512-iq+S7vZJE60yejDYM0ek6zg308+UZsdtPExWP9VZoCFCz1zkJoXFnAX7aZfd/ZwrkidzdUZL0C/ryW+JwAiIGw==
+
+vue@^2.6.10:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
+  integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
 wait-on@^3.2.0:
   version "3.2.0"

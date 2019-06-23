@@ -4,15 +4,18 @@
 SHELL := /bin/bash
 PATH := $(shell yarn bin):$(PATH)
 
-start-test-server: build
-	webpack-dev-server --config test/server/webpack.config.js &
+start-test-server:
+	webpack-dev-server --config test/server/webpack.config.js
+
+start-test-server-and-wait:
+	make start-test-server &
 	wait-on http-get://localhost:2222
 
-test: start-test-server
+test: build start-test-server-and-wait
 	cypress run
 .PHONY: test
 
-test-watch: start-test-server
+test-watch: build start-test-server-and-wait
 	cypress open
 
 build:

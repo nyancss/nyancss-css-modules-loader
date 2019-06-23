@@ -1,6 +1,6 @@
-describe('React', () => {
+describe('Vue.js', () => {
   it('works', () => {
-    cy.visit('/react.html')
+    cy.visit('/vue.html')
 
     cy.get('h1')
       .should(el => expect(el.text()).to.contain('Hello, world!'))

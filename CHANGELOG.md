@@ -7,6 +7,12 @@ This change log follows the format documented in [Keep a CHANGELOG].
 [semantic versioning]: http://semver.org/
 [keep a changelog]: http://keepachangelog.com/
 
+## 1.1.0 - 2019-06-23
+
+### Added
+
+- Add support for class names (@nyancss/class-names) and Vue.js (@nyancss/vue).
+
 ## 1.0.0 - 2019-06-17
 
 ### Changed
